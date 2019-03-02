@@ -8,15 +8,17 @@
 <head>
 <meta charset="utf-8">
 <title> Барбершоп Бородинский </title>
-<link href="https://fonts.googltapis.com/css?family=pt+sans+narrow:400,700amp;suset=latin,cyrilic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=pt+sans+narrow:400,700amp;subset=latin,cyrilic" rel="stylesheet">
 <link href="css/normalize.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <header class="main-header">
-<nav class="maim-navigation">
+<nav class="main-navigation">
+<a class="main-header-logo">
 <img src="img/index-logo.svg" width="368" height="153" alt="логотип барбершопа
 "Бородински"">
+</a>
 <ul class="site-navigation">
 <li> <a href="info.html"> Информация </a> </li>
 <li> <a href="news.html"> Новости </a> </li>
@@ -24,9 +26,10 @@
 <li> <a href="catalog.html"> Магазин </a> </li>
 <li> <a href="contacts.html"> Контакты </a> </li>
 </ul>
-<ul>
+<ul class="user-navigation">
 <li>
-  <a class="login-link" href="login.html"> Вход </a></li>
+  <a class="login-link" href="login.html"> Вход </a>
+</li>
 </ul>
 </nav>
 </header
@@ -52,6 +55,7 @@
 </li>
 </ul>
 </section>/
+<div class="index-columns">
 <section class="news">
 <h2> Новости </h2>
 <ul class="news-list">
@@ -81,6 +85,8 @@
 <button class="button gallery-button gallery-button-next" type="button"> вперед
 </button>
 </section>
+</div>
+<div class="index-columns">
 <section class="contacts">
 <h2>Контактная информация</h2>
 <p>
@@ -127,12 +133,13 @@ method="post">
 </button>
 </form>
 </section>
+</div>
 </main>
 <footer class="main-footer">
   <p class="footer-contacts">
     Барбершоп "Бородинский" <br>
     Адрес: г.Сантк-Петербург, Б.Конюшенная, д.19/8 <br>
-    <a href="map.html"> Как ас найти </a><br>
+    <a href="map.html"> Как нас найти </a><br>
     Телефон: +7 (812)666-02-66
   </p>
   <div class="footer-social">
@@ -148,6 +155,7 @@ method="post">
         <a class="button" href="https:htmlacademy.ru"> HTML Academy </a>
         </p>
         </footer>
+
         <section class="modal modal-login">
           <h2>Личный кабинет</h2>
           <p>Введите свой логин и пароль</p>
@@ -182,6 +190,7 @@ method="post">
               Закрыть
             </button>
           </section>
+
           <section class="modal modal-map">
             <h2 class="visually-hidden"> Как до нас добраться </h2>
             <p>
@@ -191,9 +200,9 @@ method="post">
               </p>
             <button class="modal-close" type="button"> Закрыть </button>
             </section>
+
 </body>
 </html>
-
 
 
 ---

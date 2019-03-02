@@ -7,14 +7,17 @@
 <head>
 <meta charset="utf-8">
 <title> Барбершоп Бородинский </title>
+<link href="https://fonts.googleapis.com/css?family=pt+sans+narrow:400,700&amp;subset=latin,cyrilic" rel="stylesheet">
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="inner-page">
 <header class="main-header">
-<nav class="maim-navigation">
-
+<nav class="main-navigation">
+<a class="main-header-logo" href="index.html">
 <img src="img/index-logo.png" width="111" height="24" alt="логотип барбершопа
 "Бородински"">
-
+</a>
 <ul class="site-navigation">
 <li> <a href="info.html"> Информация </a> </li>
 <li> <a href="news.html"> Новости </a> </li>
@@ -22,8 +25,8 @@
 <li class="site-navigation-current"> <a href="catalog.html"> Магазин </a> </li>
 <li> <a href="contacts.html"> Контакты </a> </li>
 </ul>
-<ul>
-<li class="login-link"> Вход </li>
+<ul class="user-navigation">
+<li> <a class="login-link" href="login.html"> Вход </a></li>
 </ul>
 </nav>
 </header>
@@ -72,7 +75,7 @@
       </li>
       <li class="filter-option">
         <input class="visually-hidden filter-input fielter-input-checkbox"
-        type="checkbox" name="murrays" id="murrays">
+        type="checkbox" name="murrays" id="murrays" disabled>
         <label for="murrays">
         Murray's
         </label>
@@ -251,7 +254,7 @@
   <p class="footer-contacts">
     Барбершоп "Бородинский" <br>
     Адрес: г.Сантк-Петербург, Б.Конюшенная, д.19/8 <br>
-    <a href="map.html"> Как ас найти </a><br>
+    <a href="map.html"> Как нас найти </a><br>
     Телефон: +7 (812)666-02-66
   </p>
   <div class="footer-social">
